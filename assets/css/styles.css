@@ -783,6 +783,9 @@ ul.media .video-container{
 }
 
 @media screen and (max-width:1150px){
+	header img{
+		height:60px;
+	}
 	header nav button{
 		display:block;
 		z-index:200000;
@@ -844,9 +847,6 @@ ul.media .video-container{
 }
 
 @media screen and (max-width:960px){
-	header nav ul li{
-		margin-left:2rem;
-	}
 	aside > div{
 		grid-template-columns: 1fr;
 		grid-gap:4rem;
@@ -878,9 +878,6 @@ ul.media .video-container{
 }
 
 @media screen and (max-width:768px){
-	header img{
-		height:60px;
-	}
 	ul.timeline li{
 		float:left;
 		width:calc(100% - 5px);
