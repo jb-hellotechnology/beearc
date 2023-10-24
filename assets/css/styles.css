@@ -227,6 +227,7 @@ input[type=submit]{
 	text-decoration: none;
 	font-family: 'DM Sans', sans-serif;
 	cursor:pointer;
+	border:none;
 }
 
 .button:hover,
@@ -804,6 +805,15 @@ ul.media .video-container{
 	.cta_logos h2{
 		line-height: auto;
 	}
+	.text-image{
+		grid-template-columns: 1fr;
+		grid-row-gap: 2rem;
+	}
+	.text-image img{
+		max-width:70%;
+		height:auto;
+		float:right;
+	}
 }
 
 @media screen and (max-width:768px){
@@ -844,7 +854,7 @@ ul.media .video-container{
 	}
 	header nav.show ul li:hover ul,
 	header nav.show ul li ul{
-		display:block;
+		display:none;
 		background:#fff;
 		position:relative;
 		top:0px;
