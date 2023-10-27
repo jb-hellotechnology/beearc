@@ -161,6 +161,11 @@ aside div{
 	width:100%;
 }
 
+section div.yellow{
+	background:#ffc642;
+	padding:2em;
+}
+
 aside > div{
 	display:grid;
 	grid-template-columns: 2fr 1fr 1fr;
